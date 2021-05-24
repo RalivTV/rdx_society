@@ -9,7 +9,7 @@ version '1.0.4'
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
-	'@redm_extended/locale.lua',
+	'@rdx_core/locale.lua',
 	'locales/br.lua',
 	'locales/en.lua',
 	'locales/fi.lua',
@@ -23,7 +23,7 @@ server_scripts {
 }
 
 client_scripts {
-	'@redm_extended/locale.lua',
+	'@rdx_core/locale.lua',
 	'locales/br.lua',
 	'locales/en.lua',
 	'locales/fi.lua',
@@ -37,7 +37,7 @@ client_scripts {
 }
 
 dependencies {
-	'redm_extended',
+	'rdx_core',
 	'cron',
 	'rdx_addonaccount'
 }
